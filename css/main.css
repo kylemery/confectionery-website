@@ -1,0 +1,110 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+nav ul {
+  text-align: center;
+}
+
+.navbar a {
+  display: block;
+  list-style-type: none;
+  padding: 0.25em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  text-align: center;
+  border: 0.1em white solid;
+  border-radius: 50px;
+  text-decoration: none;
+  color: black;
+  font-family: Raleway, sans-serif;
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+  color: #34031C;
+  transition: background-color, 0.75s;
+  -webkit-transition: background-color, 0.75s;
+}
+
+.navbar a:hover {
+  background-color: white;
+}
+
+.navbar {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-image: url("../images/teal-chocolate.jpg");
+}
+
+h1 {
+  font-family: "Playfair Display", sans-serif;
+  margin: 0;
+  white-space: nowrap;
+  text-align: center;
+  color: white;
+}
+
+.banner {
+  background-image: url("../images/teal-chocolate.jpg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+.banner-content {
+  margin: 0;
+}
+
+.banner-content p {
+  max-width: 600px;
+  background-color: white;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.65);
+}
+
+body {
+  margin: 0;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .banner {
+    padding-top: 15em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-position: middle center;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner {
+    padding-top: 20em;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-position: middle center;
+  }
+
+}
