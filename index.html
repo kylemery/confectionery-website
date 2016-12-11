@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-ca">
 <head>
   <meta charset="utf-8">
   <title>Cocos-Chocolatier</title>
@@ -12,13 +12,19 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
-  <header class="masthead">
+
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#main">Nav</a></li>
+  </ul>
+
+  <header class="masthead" role="banner">
     <div class="grid grid-middle">
       <div class="unit xs-1 s-1 m-1 l-1-2">
         <h1 class="yotta pad-bottom-quarter" id="cocos-chocolatier">Coco's Chocolatier</h1>
       </div>
       <div class="unit xs-1 s-1 m-1 l-1-2 pad-bottom-half pad-top-half">
-        <nav>
+        <nav role="navigation" id="nav">
           <ul class="navbar list-group-inline">
             <li><a class="milli" href="#selection">Selection</a></li>
             <li><a class="milli" href="#chocolatiers">Chocolatiers</a></li>
@@ -28,13 +34,15 @@
       </div>
     </div>
   </header>
-  <main>
+  <main role="main">
 
-    <div class="banner embed-4by3">
-      <div class="banner-content">
-        <p class="push exo island-1-2">Coco's Chocolatier has been around for 12 years, with delicious desserts for every occasion. We handmake all of our treats with the finest cocoa from fair traide sources and will never let you down with the wonderful taste of our dark chocolate blends.</p>
+    <section>
+      <div class="banner embed-item embed-4by3">
+        <div class="banner-content">
+          <p class="push exo island-1-2">Coco's Chocolatier has been around for 12 years, with delicious desserts for every occasion. We handmake all of our treats with the finest cocoa from fair traide sources and will never let you down with the wonderful taste of our dark chocolate blends.</p>
+        </div>
       </div>
-    </div>
+    </section>
 
     <div id="selection" class="selection grid grid-middle selection">
       <div class="h2-header unit xs-1 s-1 m-1 l-1">
@@ -118,8 +126,8 @@
       </div>
 
       <div class="chocolatiers-1">
-        <div class="img-flex unit xs-1 s-1 m-2-3 l-2-3">
-          <img src="images/owner.jpg" alt="owner">
+        <div class="embed img-flex unit xs-1 s-1 m-2-3 l-2-3">
+          <img src="images/owner.jpg" alt="owner" aria-describedat="#owner">
         </div>
         <div class="chocolatiers-content unit xs-1 s-1 m-1-3 l-1-3">
           <h3 class="mega">Rachel Augustin</h3>
@@ -128,8 +136,8 @@
       </div>
 
       <div class="chocolatiers-2">
-        <div class="img-flex unit xs-1 s-1 m-2-3 l-2-3">
-          <img src="images/owner-2.jpg" alt="owner">
+        <div class="embed img-flex unit xs-1 s-1 m-2-3 l-2-3">
+          <img src="images/owner-2.jpg" alt="owner" aria-describedat="#owner2">
         </div>
         <div class="chocolatiers-content unit xs-1 s-1 m-1-3 l-1-3">
           <h3 class="mega">Marcelle Augustin</h3>
@@ -173,7 +181,7 @@
     </div>
   </main>
 
-  <footer>
+  <footer role="contentinfo">
     <div class="footer-content">
       <p class="micro">© Coco's Chocolatier</p>
     </div>
@@ -181,3 +189,4 @@
 
 
 </body>
+</html>

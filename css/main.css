@@ -10,8 +10,8 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: 'Playfair Display', serif;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: Raleway, sans-serif;
 }
 
 *, *::before, *::after {
@@ -25,20 +25,19 @@ nav ul {
 .navbar a {
   display: block;
   list-style-type: none;
-  padding: 0.25em;
-  padding-left: 0.75em;
-  padding-right: 0.75em;
+  padding: .25em;
+  padding-left: .75em;
+  padding-right: .75em;
   text-align: center;
-  border: 0.1em white solid;
+  border: .1em white solid;
   border-radius: 50px;
   text-decoration: none;
   color: black;
   font-family: Raleway, sans-serif;
-  margin-left: 0.25em;
-  margin-right: 0.25em;
-  color: #34031C;
-  transition: background-color, 0.75s;
-  -webkit-transition: background-color, 0.75s;
+  margin-left: .25em;
+  margin-right: .25em;
+  transition: background-color, .75s;
+  -webkit-transition: background-color, .75s;
 }
 
 .navbar a:hover {
@@ -76,9 +75,8 @@ h1 {
 
 .banner-content p {
   max-width: 600px;
-  background-color: white;
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.65);
+  background-color: rgba(255, 255, 255, .65);
 }
 
 body {
@@ -98,7 +96,7 @@ h2 {
   margin: 0;
   white-space: nowrap;
   text-align: center;
-  color: #B1E0CD;
+  color: #b1e0cd;
 }
 
 li {
@@ -106,7 +104,7 @@ li {
 }
 
 .h2-header {
-  border-bottom: dotted 1px #B1E0CD;
+  border-bottom: dotted 1px #b1e0cd;
 }
 
 .selection {
@@ -114,14 +112,14 @@ li {
   background-color: white;
 }
 
-.selection ul{
+.selection ul {
   list-style-type: none;
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 .selection li {
   padding-top: 1em;
-  border-bottom: dotted 1px #88D8B8;
+  border-bottom: dotted 1px #88d8b8;
   padding-bottom: 1.5em;
 }
 
@@ -138,11 +136,11 @@ h3 {
 }
 
 .chocolatiers-content {
-  padding-left: 0.5em;
+  padding-left: .5em;
 }
 
 .contact-us h2 {
-  border-top: dotted 1px #88D8B8;
+  border-top: dotted 1px #88d8b8;
 }
 
 .contact-us {
@@ -161,9 +159,9 @@ h3 {
 }
 
 footer {
-  background-color: #88D8B8;
+  background-color: #88d8b8;
   color: white;
-  padding-top: 0.5em;
+  padding-top: .5em;
   padding-bottom: 1em;
 }
 
@@ -178,7 +176,6 @@ footer {
     padding-bottom: 1em;
     padding-left: 1em;
     padding-right: 1em;
-    background-position: middle center;
   }
 
   .banner-content p {
@@ -225,7 +222,6 @@ footer {
     padding-bottom: 2em;
     padding-left: 1em;
     padding-right: 1em;
-    background-position: middle center;
   }
 
   .selection {
