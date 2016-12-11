@@ -85,6 +85,92 @@ body {
   margin: 0;
 }
 
+li i img {
+  width: 124px;
+}
+
+span {
+  display: block;
+}
+
+h2 {
+  font-family: "Playfair Display", sans-serif;
+  margin: 0;
+  white-space: nowrap;
+  text-align: center;
+  color: #B1E0CD;
+}
+
+li {
+  text-align: center;
+}
+
+.h2-header {
+  border-bottom: dotted 1px #B1E0CD;
+}
+
+.selection {
+  margin: auto;
+  background-color: white;
+}
+
+.selection ul{
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.selection li {
+  padding-top: 1em;
+  border-bottom: dotted 1px #88D8B8;
+  padding-bottom: 1.5em;
+}
+
+ul > li::before {
+  content: none;
+}
+
+h3 {
+  white-space: nowrap;
+}
+
+.chocolatiers img {
+  width: 100%;
+}
+
+.chocolatiers-content {
+  padding-left: 0.5em;
+}
+
+.contact-us h2 {
+  border-top: dotted 1px #88D8B8;
+}
+
+.contact-us {
+  width: 95%;
+  margin: auto;
+  padding-bottom: 3em;
+}
+
+.contact-content {
+  padding-top: 1em;
+}
+
+.button {
+  margin: auto;
+  text-align: center;
+}
+
+footer {
+  background-color: #88D8B8;
+  color: white;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+}
+
+.footer-content {
+  padding-left: 2em;
+}
+
 @media only screen and (min-width: 38em) {
 
   .banner {
@@ -93,6 +179,41 @@ body {
     padding-left: 1em;
     padding-right: 1em;
     background-position: middle center;
+  }
+
+  .banner-content p {
+    border: 1px;
+    border-radius: 15px;
+  }
+
+  .selection {
+    width: 95%;
+    margin: auto;
+  }
+
+  .chocolatiers img {
+    width: 100%;
+    padding: 1em;
+  }
+
+  .chocolatiers {
+    width: 95%;
+    margin: auto;
+  }
+
+  .chocolatiers-content {
+    padding-right: 1em;
+    padding-top: 1em;
+  }
+
+  .contact-us {
+    width: 95%;
+    margin: auto;
+  }
+
+  .contact-content {
+    width: 75%;
+    margin: auto;
   }
 
 }
@@ -105,6 +226,38 @@ body {
     padding-left: 1em;
     padding-right: 1em;
     background-position: middle center;
+  }
+
+  .selection {
+    width: 75%;
+    margin: auto;
+  }
+
+  .contact-content {
+    width: 50%;
+    margin: auto;
+  }
+
+  .chocolatiers {
+    width: 75%;
+    margin: auto;
+  }
+
+  .chocolatiers-content {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .chocolatiers-1 {
+    width: 49%;
+  }
+
+  .chocolatiers-2 {
+    width: 49%;
   }
 
 }
