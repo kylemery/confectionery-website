@@ -371,8 +371,8 @@ select {
 }
 
 .gutter {
-  padding-left: 1.3rem;
-  padding-right: 1.3rem;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
 }
 
 .gutter-double,
