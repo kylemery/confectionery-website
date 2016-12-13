@@ -38,6 +38,8 @@ nav ul {
   margin-right: .25em;
   transition: background-color, .75s;
   -webkit-transition: background-color, .75s;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
 }
 
 .navbar a:hover {
